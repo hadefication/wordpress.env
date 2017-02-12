@@ -1,0 +1,13 @@
+{
+    "name": "hadefication/wordpress.env",
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Glen  Bangkila",
+            "email": "hadeinvane@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
