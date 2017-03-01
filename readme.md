@@ -1,6 +1,6 @@
 ## Wordpress.env
 
-Just another Wordpress with [phpdotenv](https://github.com/vlucas/phpdotenv).
+Just another Wordpress with [phpdotenv](https://github.com/vlucas/phpdotenv). This ships with [Wordpress 4.7.2](https://wordpress.org/download/) so please follow it's system [requirements](https://wordpress.org/about/requirements/).
 
 ### Requirements
 1. We definitely need [composer](https://getcomposer.org/).
