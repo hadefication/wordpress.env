@@ -4,6 +4,7 @@ Just another Wordpress with [phpdotenv](https://github.com/vlucas/phpdotenv). Th
 
 ### Requirements
 1. We definitely need [composer](https://getcomposer.org/).
+2. Follow step 1.
 
 ### Setup
 1. Clone or download this repo.
