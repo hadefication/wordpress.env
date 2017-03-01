@@ -1,2 +1,4 @@
 /vendor
+/wp-content/uploads/*
+!/wp-content/uploads/.gitkeep
 .env
