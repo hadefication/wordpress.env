@@ -41,6 +41,12 @@ define('DB_CHARSET', getenv('DB_CHARSET', 'utf8'));
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', getenv('DB_COLLATE'));
 
+/** Wordpress home url */
+define('WP_HOME', getenv('WP_HOME', 'http://localhost'));
+
+/** Wordpress site url */
+define('WP_SITEURL', getenv('WP_SITEURL', 'http://localhost'));
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
