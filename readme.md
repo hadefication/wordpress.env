@@ -10,6 +10,7 @@ Just another Wordpress with [phpdotenv](https://github.com/vlucas/phpdotenv). Th
 1. Clone or download this repo.
 2. Run `composer install` to install the required package.
 3. Copy `.env.stub` and rename it to `.env`. Update the configurations in the file now named as `.env`.
+4. Or run `make setup` if you have Makefile support to run steps 1 and 2.
 4. Run the installer by accessing `http://yourdevdomain.dev`. This could be your [http://localhost](http://localhost) or something else depending on your setup.
 5. Cheers!
 
