@@ -41,10 +41,10 @@ define('DB_CHARSET', getenv('DB_CHARSET', 'utf8'));
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', getenv('DB_COLLATE'));
 
-/** Wordpress home url */
+/** Home url override */
 define('WP_HOME', getenv('WP_HOME', 'http://localhost'));
 
-/** Wordpress site url */
+/** Site url override */
 define('WP_SITEURL', getenv('WP_SITEURL', 'http://localhost'));
 
 /**#@+
@@ -89,16 +89,20 @@ $table_prefix  = getenv('DB_TABLE_PREFIX', 'wp_');
  */
 define('WP_DEBUG', getenv('DEBUG', false));
 
-/**
- * Memory limit
- */
-define('WP_MEMORY_LIMIT', getenv('WP_MEMORY_LIMIT'));
+/** Memory limit */
+define('WP_MEMORY_LIMIT', getenv('WP_MEMORY_LIMIT', '64M'));
 
-/**
- * Max memory limit
- */
-define('WP_MAX_MEMORY_LIMIT', getenv('WP_MAX_MEMORY_LIMIT'));
+/** Max memory limit */
+define('WP_MAX_MEMORY_LIMIT', getenv('WP_MAX_MEMORY_LIMIT', '256M'));
 
+/** Toggle multi site support */
+define('WP_ALLOW_MULTISITE', getenv('WP_ALLOW_MULTISITE', false));
+
+define('WP_ALLOW_REPAIR', getenv('WP_ALLOW_REPAIR', false));
+
+/** Override file permissions */
+define('FS_CHMOD_FILE', getenv('FS_CHMOD_FILE', 0644));
+define('FS_CHMOD_DIR', getenv('FS_CHMOD_DIR', 0755));
 
 /* That's all, stop editing! Happy blogging. */
 
