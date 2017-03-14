@@ -19,12 +19,12 @@ Just another Wordpress with [phpdotenv](https://github.com/vlucas/phpdotenv). Th
 2. `DB_USER` for the database user.
 3. `DB_PASSWORD` for the database password.
 4. `DB_HOST` for the database host. This can be a hostname or an ip.
-5. `DB_CHARSET` for the database character set. Defaults to utf8 (Unicode UTF-8). See this [link](https://dev.mysql.com/doc/refman/5.6/en/charset-charsets.html) for more details on valid MySQL characters sets.
+5. `DB_CHARSET` for the database character set. Defaults to **utf8** (Unicode UTF-8). See this [link](https://dev.mysql.com/doc/refman/5.6/en/charset-charsets.html) for more details on valid MySQL characters sets.
 6. `DB_COLLATE` for database collation. Read [this](https://codex.wordpress.org/Editing_wp-config.php#Database_collation) for more details on database collation.
 7. `DB_TABLE_PREFIX` for the database table prefix. Defaults to `wp_`.
 8. `AUTH_KEY` `SECURE_AUTH_KEY` `LOGGED_IN_KEY` `NONCE_KEY` `AUTH_SALT` `SECURE_AUTH_SALT` `LOGGED_IN_SALT` `NONCE_SALT` are security keys. You can grab its values over [here](https://api.wordpress.org/secret-key/1.1/salt/).
-9. `WP_HOME` for the default home url. Using this will save you a database query, equates to permonance plus plus.
-10. `WP_SITEURL` for the default site url. Using this will save you a database query, equates to permonance plus plus.
+9. `WP_HOME` for the default home url. Using this will save you a database query, equates to performance plus plus.
+10. `WP_SITEURL` for the default site url. Using this will save you a database query, equates to performance plus plus.
 11. `FS_CHMOD_FILE` to override file permissions. Defaults to `0644`.
 12. `FS_CHMOD_DIR` to override directory permissions. Defaults to `0755`.
 13. `WP_MEMORY_LIMIT` to override PHP's memory limit. Adjust this according to your needs specially if you have resources hungry plugins. Defaults to `64M`.
